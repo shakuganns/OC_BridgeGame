@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D209D49A1C228BA000E4716E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D209D4991C228BA000E4716E /* main.m */; };
+		D209D49D1C228BA000E4716E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D209D49C1C228BA000E4716E /* AppDelegate.m */; };
+		D209D4A01C228BA000E4716E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D209D49F1C228BA000E4716E /* ViewController.m */; };
+		D209D4A31C228BA000E4716E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209D4A11C228BA000E4716E /* Main.storyboard */; };
+		D209D4A51C228BA000E4716E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D209D4A41C228BA000E4716E /* Assets.xcassets */; };
+		D209D4A81C228BA000E4716E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209D4A61C228BA000E4716E /* LaunchScreen.storyboard */; };
+		D209D4B31C228BA000E4716E /* littleboyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209D4B21C228BA000E4716E /* littleboyTests.m */; };
+		D209D4BE1C228BA000E4716E /* littleboyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D209D4BD1C228BA000E4716E /* littleboyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D209D4AF1C228BA000E4716E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209D48D1C228BA000E4716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209D4941C228BA000E4716E;
+			remoteInfo = littleboy;
+		};
+		D209D4BA1C228BA000E4716E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209D48D1C228BA000E4716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209D4941C228BA000E4716E;
+			remoteInfo = littleboy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D209D4951C228BA000E4716E /* littleboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209D4991C228BA000E4716E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D209D49B1C228BA000E4716E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D209D49C1C228BA000E4716E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D209D49E1C228BA000E4716E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D209D49F1C228BA000E4716E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D209D4A21C228BA000E4716E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D209D4A41C228BA000E4716E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D209D4A71C228BA000E4716E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D209D4A91C228BA000E4716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D209D4AE1C228BA000E4716E /* littleboyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littleboyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209D4B21C228BA000E4716E /* littleboyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = littleboyTests.m; sourceTree = "<group>"; };
+		D209D4B41C228BA000E4716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D209D4B91C228BA000E4716E /* littleboyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littleboyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209D4BD1C228BA000E4716E /* littleboyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = littleboyUITests.m; sourceTree = "<group>"; };
+		D209D4BF1C228BA000E4716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D209D4921C228BA000E4716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4AB1C228BA000E4716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4B61C228BA000E4716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D209D48C1C228BA000E4716E = {
+			isa = PBXGroup;
+			children = (
+				D209D4971C228BA000E4716E /* littleboy */,
+				D209D4B11C228BA000E4716E /* littleboyTests */,
+				D209D4BC1C228BA000E4716E /* littleboyUITests */,
+				D209D4961C228BA000E4716E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D209D4961C228BA000E4716E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D209D4951C228BA000E4716E /* littleboy.app */,
+				D209D4AE1C228BA000E4716E /* littleboyTests.xctest */,
+				D209D4B91C228BA000E4716E /* littleboyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D209D4971C228BA000E4716E /* littleboy */ = {
+			isa = PBXGroup;
+			children = (
+				D209D49B1C228BA000E4716E /* AppDelegate.h */,
+				D209D49C1C228BA000E4716E /* AppDelegate.m */,
+				D209D49E1C228BA000E4716E /* ViewController.h */,
+				D209D49F1C228BA000E4716E /* ViewController.m */,
+				D209D4A11C228BA000E4716E /* Main.storyboard */,
+				D209D4A41C228BA000E4716E /* Assets.xcassets */,
+				D209D4A61C228BA000E4716E /* LaunchScreen.storyboard */,
+				D209D4A91C228BA000E4716E /* Info.plist */,
+				D209D4981C228BA000E4716E /* Supporting Files */,
+			);
+			path = littleboy;
+			sourceTree = "<group>";
+		};
+		D209D4981C228BA000E4716E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D209D4991C228BA000E4716E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D209D4B11C228BA000E4716E /* littleboyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D209D4B21C228BA000E4716E /* littleboyTests.m */,
+				D209D4B41C228BA000E4716E /* Info.plist */,
+			);
+			path = littleboyTests;
+			sourceTree = "<group>";
+		};
+		D209D4BC1C228BA000E4716E /* littleboyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D209D4BD1C228BA000E4716E /* littleboyUITests.m */,
+				D209D4BF1C228BA000E4716E /* Info.plist */,
+			);
+			path = littleboyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D209D4941C228BA000E4716E /* littleboy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209D4C21C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboy" */;
+			buildPhases = (
+				D209D4911C228BA000E4716E /* Sources */,
+				D209D4921C228BA000E4716E /* Frameworks */,
+				D209D4931C228BA000E4716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = littleboy;
+			productName = littleboy;
+			productReference = D209D4951C228BA000E4716E /* littleboy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D209D4AD1C228BA000E4716E /* littleboyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209D4C51C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboyTests" */;
+			buildPhases = (
+				D209D4AA1C228BA000E4716E /* Sources */,
+				D209D4AB1C228BA000E4716E /* Frameworks */,
+				D209D4AC1C228BA000E4716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209D4B01C228BA000E4716E /* PBXTargetDependency */,
+			);
+			name = littleboyTests;
+			productName = littleboyTests;
+			productReference = D209D4AE1C228BA000E4716E /* littleboyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D209D4B81C228BA000E4716E /* littleboyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209D4C81C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboyUITests" */;
+			buildPhases = (
+				D209D4B51C228BA000E4716E /* Sources */,
+				D209D4B61C228BA000E4716E /* Frameworks */,
+				D209D4B71C228BA000E4716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209D4BB1C228BA000E4716E /* PBXTargetDependency */,
+			);
+			name = littleboyUITests;
+			productName = littleboyUITests;
+			productReference = D209D4B91C228BA000E4716E /* littleboyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D209D48D1C228BA000E4716E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "钟圣麟";
+				TargetAttributes = {
+					D209D4941C228BA000E4716E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D209D4AD1C228BA000E4716E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D209D4941C228BA000E4716E;
+					};
+					D209D4B81C228BA000E4716E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D209D4941C228BA000E4716E;
+					};
+				};
+			};
+			buildConfigurationList = D209D4901C228BA000E4716E /* Build configuration list for PBXProject "littleboy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D209D48C1C228BA000E4716E;
+			productRefGroup = D209D4961C228BA000E4716E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D209D4941C228BA000E4716E /* littleboy */,
+				D209D4AD1C228BA000E4716E /* littleboyTests */,
+				D209D4B81C228BA000E4716E /* littleboyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D209D4931C228BA000E4716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209D4A81C228BA000E4716E /* LaunchScreen.storyboard in Resources */,
+				D209D4A51C228BA000E4716E /* Assets.xcassets in Resources */,
+				D209D4A31C228BA000E4716E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4AC1C228BA000E4716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4B71C228BA000E4716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D209D4911C228BA000E4716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209D4A01C228BA000E4716E /* ViewController.m in Sources */,
+				D209D49D1C228BA000E4716E /* AppDelegate.m in Sources */,
+				D209D49A1C228BA000E4716E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4AA1C228BA000E4716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209D4B31C228BA000E4716E /* littleboyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209D4B51C228BA000E4716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D209D4BE1C228BA000E4716E /* littleboyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D209D4B01C228BA000E4716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209D4941C228BA000E4716E /* littleboy */;
+			targetProxy = D209D4AF1C228BA000E4716E /* PBXContainerItemProxy */;
+		};
+		D209D4BB1C228BA000E4716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209D4941C228BA000E4716E /* littleboy */;
+			targetProxy = D209D4BA1C228BA000E4716E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D209D4A11C228BA000E4716E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D209D4A21C228BA000E4716E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D209D4A61C228BA000E4716E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D209D4A71C228BA000E4716E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D209D4C01C228BA000E4716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D209D4C11C228BA000E4716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D209D4C31C228BA000E4716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = littleboy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D209D4C41C228BA000E4716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = littleboy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D209D4C61C228BA000E4716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = littleboyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/littleboy.app/littleboy";
+			};
+			name = Debug;
+		};
+		D209D4C71C228BA000E4716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = littleboyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/littleboy.app/littleboy";
+			};
+			name = Release;
+		};
+		D209D4C91C228BA000E4716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = littleboyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = littleboy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D209D4CA1C228BA000E4716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = littleboyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakugan.littleboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = littleboy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D209D4901C228BA000E4716E /* Build configuration list for PBXProject "littleboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209D4C01C228BA000E4716E /* Debug */,
+				D209D4C11C228BA000E4716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209D4C21C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209D4C31C228BA000E4716E /* Debug */,
+				D209D4C41C228BA000E4716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D209D4C51C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209D4C61C228BA000E4716E /* Debug */,
+				D209D4C71C228BA000E4716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D209D4C81C228BA000E4716E /* Build configuration list for PBXNativeTarget "littleboyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209D4C91C228BA000E4716E /* Debug */,
+				D209D4CA1C228BA000E4716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D209D48D1C228BA000E4716E /* Project object */;
+}
